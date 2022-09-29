@@ -24,10 +24,17 @@
 		<Nullable>Enable</Nullable>
 		<LangVersion>10.0</LangVersion>
 		<PackageTags>http download progress</PackageTags>
+		<Title>Amusoft.Toolkit.Http</Title>
+		<PackageIcon>packageIcon.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="packageIcon.png" Pack="true" PackagePath="\" />
+		<None Include="..\..\README.md">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
+		</None>
+		<None Include="packageIcon.png" Pack="True" PackagePath="\" />
 		<InternalsVisibleTo Include="Amusoft.Toolkit.Http.UnitTests" />
 		<PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0" PrivateAssets="all" />
 	</ItemGroup>
