@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D877382A-6ABC-447F-8110-28B44EB3D92C}") = "Amusoft.Toolkit.Http", "Amusoft.Toolkit.Http\Amusoft.Toolkit.Http.csproj", "{10D4FD6F-846B-483C-8FD6-84C7E061F8F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amusoft.Toolkit.Http", "Amusoft.Toolkit.Http\Amusoft.Toolkit.Http.csproj", "{10D4FD6F-846B-483C-8FD6-84C7E061F8F6}"
 EndProject
-Project("{D877382A-6ABC-447F-8110-28B44EB3D92C}") = "Amusoft.Toolkit.Http.UnitTests", "..\tests\Amusoft.Toolkit.Http.UnitTests\Amusoft.Toolkit.Http.UnitTests.csproj", "{BBB05C70-A969-4C8A-8A56-FA2F67F0DD88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amusoft.Toolkit.Http.UnitTests", "..\tests\Amusoft.Toolkit.Http.UnitTests\Amusoft.Toolkit.Http.UnitTests.csproj", "{BBB05C70-A969-4C8A-8A56-FA2F67F0DD88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

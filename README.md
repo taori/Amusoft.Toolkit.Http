@@ -8,4 +8,10 @@
 
 ## Description
 
-This template was generated using Amusoft.Templates
+This project contains a toolkit for the usage area of HTTP functionality
+
+# Features
+
+- Downloading files with progress callbacks
+    - `DownloadWithProgress.ExecuteAsync(HttpClient, downloadUrl, destinationPath, progress, requestMessageBuilder, cancellationToken)`
+    - `HttpClient.DownloadWithProgressAsync(downloadUrl, destinationPath, progress, requestMessageBuilder, cancellationToken)` 
