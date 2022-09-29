@@ -6,7 +6,7 @@
 		<IsPackable>true</IsPackable>
 
 		<Copyright>Copyright © Andreas Müller 2022</Copyright>
-		<Description>Amusoft.Toolkit.Http</Description>
+		<Description>Download with progress</Description>
 		<PackageId>Amusoft.Toolkit.Http</PackageId>
 		<Authors>Andreas Müller</Authors>
 		<Product>Amusoft.Toolkit.Http</Product>
@@ -17,12 +17,17 @@
 		<RepositoryUrl>https://github.com/taori/Amusoft.Toolkit.Http.git</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/taori/Amusoft.Toolkit.Http</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageReleaseNotes>
+			http download with progress
+		</PackageReleaseNotes>
 
 		<Nullable>Enable</Nullable>
 		<LangVersion>10.0</LangVersion>
+		<PackageTags>http download progress</PackageTags>
 	</PropertyGroup>
 
 	<ItemGroup>
+		<None Include="packageIcon.png" Pack="true" PackagePath="\" />
 		<InternalsVisibleTo Include="Amusoft.Toolkit.Http.UnitTests" />
 		<PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0" PrivateAssets="all" />
 	</ItemGroup>
