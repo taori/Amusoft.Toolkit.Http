@@ -4,6 +4,7 @@
 		<VersionPrefix>1.0.0</VersionPrefix>
 		<VersionSuffix>beta</VersionSuffix>
 		<IsPackable>true</IsPackable>
+		<WarningsAsErrors>CS1591</WarningsAsErrors>
 
 		<Copyright>Copyright © Andreas Müller 2022</Copyright>
 		<Description>Download with progress</Description>

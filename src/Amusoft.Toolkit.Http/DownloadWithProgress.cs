@@ -6,6 +6,9 @@ using Amusoft.Toolkit.Http.Delegates;
 
 namespace Amusoft.Toolkit.Http;
 
+/// <summary>
+/// Utility class to manually launch a download process with progress feedback
+/// </summary>
 public static class DownloadWithProgress
 {
 

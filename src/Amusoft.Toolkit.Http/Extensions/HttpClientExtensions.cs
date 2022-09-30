@@ -6,6 +6,9 @@ using Amusoft.Toolkit.Http.Delegates;
 
 namespace Amusoft.Toolkit.Http.Extensions;
 
+/// <summary>
+/// Extension methods for HttpClient
+/// </summary>
 public static class HttpClientExtensions
 {
 	/// <summary>

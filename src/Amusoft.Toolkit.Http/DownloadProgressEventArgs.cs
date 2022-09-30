@@ -2,6 +2,9 @@
 
 namespace Amusoft.Toolkit.Http;
 
+/// <summary>
+/// Data holder EventArgs for download progress
+/// </summary>
 public readonly ref struct DownloadProgressEventArgs
 {
 	/// <summary>
