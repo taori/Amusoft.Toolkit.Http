@@ -11,7 +11,7 @@
 		<Authors>Andreas Müller</Authors>
 		<Product>Amusoft.Toolkit.Http</Product>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<GenerateDocumentationFile>false</GenerateDocumentationFile>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>https://github.com/taori/Amusoft.Toolkit.Http.git</RepositoryUrl>
